@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Новости и объявления — Медицинский центр Ирины Абельмазовой</title>
+  <meta name="description" content="Объявления медицинского центра Ирины Абельмазовой в Белгороде.">
+  <link rel="icon" href="../assets/img/znachok.jpg">
+  <link rel="stylesheet" href="../assets/site.css">
+  <script defer src="../assets/icons.js"></script>
+  <script defer src="../assets/dannye.js"></script>
+  <script defer src="../assets/site.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="../" aria-label="На главную">
+      <img class="brand__logo" src="../assets/img/logo.jpg" alt="">
+      <span class="brand__txt">
+        <span class="brand__title">Медицинский центр</span>
+        <span class="brand__org">Ирины Абельмазовой</span>
+      </span>
+    </a>
+    <nav id="primary-nav" class="nav__links" aria-label="Основные разделы"><a href="../">Главная</a><a href="../o-klinike/">О клинике</a><a href="../uslugi/">Услуги и цены</a><a href="../vrachi/">Врачи</a><a href="../kontakty/">Контакты</a></nav>
+    <div class="nav__cta">
+      <a class="nav__phone" href="tel:+79205616149" data-phone="phone"><b data-contact="phone">+7 (920) 561-61-49</b><span>Регистратура</span></a>
+      <a class="btn btn--bordo" href="tel:+79205616149" data-phone="phone" data-book>Позвонить</a>
+      <button type="button" class="burger" aria-label="Меню" aria-expanded="false" aria-controls="primary-nav" data-burger><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="site-notice" data-site-notice data-news-url="../novosti/" hidden></div>
+<main>
+<section class="page-hero">
+  <div class="container">
+    <div class="crumbs"><a href="../">Главная</a> · Новости и объявления</div>
+    <h1>Новости и объявления</h1>
+  </div>
+</section>
+<section class="section">
+  <div class="container" data-announcements>
+    <p class="lead">Объявлений пока нет.</p>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="brand">
+          <img class="brand__logo" src="../assets/img/logo.jpg" alt="" loading="lazy">
+          <span class="brand__txt">
+            <span class="brand__title" style="color:#fff">Медицинский центр</span>
+            <span class="brand__org" style="color:#fff">Ирины Абельмазовой</span>
+          </span>
+        </div>
+        <p>Бережная медицина женского здоровья и долголетия в Белгороде. Работаем с 2018 года.</p>
+      </div>
+      <div><h4>Разделы</h4><div class="footer__list"><a href="../">Главная</a><a href="../o-klinike/">О клинике</a><a href="../uslugi/">Услуги и цены</a><a href="../vrachi/">Врачи</a><a href="../kontakty/">Контакты</a><a href="../novosti/">Новости и объявления</a></div></div>
+      <div><h4>Контакты</h4><div class="footer__list">
+        <a href="tel:+79205616149" data-phone="phone" data-contact="phone">+7 (920) 561-61-49</a>
+        <a href="../kontakty/" data-contact="address">г. Белгород, ул. Преображенская, 109б</a>
+        <span data-contact="hours">Пн–Сб 10:00–17:00</span>
+      </div></div>
+      <div><h4>Мы в сети</h4><div class="footer__list">
+        <a href="https://t.me/MCAbelmazova" target="_blank" rel="noopener">Telegram-канал</a>
+        <a href="https://prodoctorov.ru/belgorod/lpu/59833-medicinskiy-centr-iriny-abelmazovoy/" target="_blank" rel="noopener">ПроДокторов</a>
+        <a href="https://2gis.ru/belgorod/firm/70000001034007109" target="_blank" rel="noopener">2ГИС</a>
+        <a href="https://yandex.ru/maps/org/meditsinskiy_tsentr_iriny_abelmazovoy/186025209132/" target="_blank" rel="noopener">Яндекс Карты</a>
+      </div></div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Медицинский центр Ирины Абельмазовой.</span>
+      <a class="footer__license" href="../licenziya/">Лицензия</a>
+      <div class="footer__social"><a href="https://t.me/MCAbelmazova" target="_blank" rel="noopener" aria-label="Канал в Telegram" data-ic="tg"></a></div>
+    </div>
+  </div>
+</footer>
+<dialog class="booking-dialog" id="booking" aria-labelledby="booking-title">
+  <div class="modal__card">
+    <form method="dialog"><button class="modal__close" aria-label="Закрыть" autofocus>×</button></form>
+    <img class="modal__logo" src="../assets/img/logo.jpg" alt="" loading="lazy">
+    <h3 id="booking-title">Запись по телефону</h3>
+    <p data-booking-message>Администратор подберёт удобное время и ответит на вопросы.</p>
+    <a class="modal__phone" href="tel:+79205616149" data-phone="phone" data-contact="phone">+7 (920) 561-61-49</a>
+    <div class="modal__hours" data-contact="hours">Пн–Сб 10:00–17:00</div>
+    <div class="modal__actions">
+      <a class="btn btn--primary btn--lg btn--block" href="tel:+79205616149" data-phone="phone"><span data-ic="phone"></span> Позвонить в регистратуру</a>
+    </div>
+  </div>
+</dialog>
+</body>
+</html>

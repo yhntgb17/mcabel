@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Медицинский центр Ирины Абельмазовой</title>
+  <meta name="description" content="Медицинский центр Ирины Абельмазовой в Белгороде. Гинекология, УЗИ, специалисты и запись через регистратуру.">
+  <link rel="icon" href="./assets/img/znachok.jpg">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script defer src="./assets/icons.js"></script>
+  <script defer src="./assets/dannye.js"></script>
+  <script defer src="./assets/site.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="./" aria-label="На главную">
+      <img class="brand__logo" src="./assets/img/logo.jpg" alt="">
+      <span class="brand__txt">
+        <span class="brand__title">Медицинский центр</span>
+        <span class="brand__org">Ирины Абельмазовой</span>
+      </span>
+    </a>
+    <nav id="primary-nav" class="nav__links" aria-label="Основные разделы"><a href="./" class="is-active" aria-current="page">Главная</a><a href="./o-klinike/">О клинике</a><a href="./uslugi/">Услуги и цены</a><a href="./vrachi/">Врачи</a><a href="./kontakty/">Контакты</a></nav>
+    <div class="nav__cta">
+      <a class="nav__phone" href="tel:+79205616149" data-phone="phone"><b data-contact="phone">+7 (920) 561-61-49</b><span>Регистратура</span></a>
+      <a class="btn btn--bordo" href="tel:+79205616149" data-phone="phone" data-book>Позвонить</a>
+      <button type="button" class="burger" aria-label="Меню" aria-expanded="false" aria-controls="primary-nav" data-burger><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="site-notice" data-site-notice data-news-url="./novosti/" hidden></div>
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" data-screen-label="Главная / Hero">
+  <div class="hero__bg"><span class="hero__blob b1"></span><span class="hero__blob b2"></span></div>
+  <div class="container hero__inner">
+    <div class="hero__copy">
+      <span class="eyebrow hero__eyebrow">Медицинский центр · Белгород</span>
+      <h1>Женское здоровье,<br>в котором вас <em>слышат</em></h1>
+      <span class="hero__slogan">«Внимание, которое лечит»</span>
+      <p class="hero__desc">Гинекология, УЗИ, эндокринология и превентивная медицина под руководством Ирины Абельмазовой. Консультации, диагностика и наблюдение в одном центре.</p>
+      <div class="hero__actions">
+        <a class="btn btn--bordo btn--lg" href="tel:+79205616149" data-phone="phone" data-book>Позвонить в регистратуру</a>
+        <a class="btn btn--ghost btn--lg" href="./uslugi/">Услуги и цены</a>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat"><b>8 лет</b><span>заботы с 2018 года</span></div>
+        <div class="hero__stat"><b>31 год</b><span>стаж главного врача</span></div>
+        <div class="hero__stat"><b>130+</b><span>отзывов пациентов</span></div>
+      </div>
+    </div>
+    <div class="hero__media">
+      <div class="hero__photo"><img src="./assets/img/irina-abelmazova.jpg" fetchpriority="high" srcset="./assets/img/irina-abelmazova-560.jpg 403w, ./assets/img/irina-abelmazova.jpg 806w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Ирина Абельмазова, главный врач центра" style="object-position:center 22%"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST FEATURES ============ -->
+<section class="section section--tight">
+  <div class="container grid grid-4">
+    <div class="feature reveal">
+      <div class="feature__ic" data-ic="heart"></div>
+      <h3>Женская медицина</h3>
+      <p>Профильный центр женского здоровья и долголетия — от планирования беременности до превентивной медицины.</p>
+    </div>
+    <div class="feature reveal">
+      <div class="feature__ic" data-ic="scan"></div>
+      <h3>УЗИ на приёме</h3>
+      <p>Аппарат экспертного класса прямо в кабинете гинеколога: диагноз и решение — за один визит.</p>
+    </div>
+    <div class="feature reveal">
+      <div class="feature__ic" data-ic="leaf"></div>
+      <h3>Интегративный подход</h3>
+      <p>Гирудотерапия, физиотерапия, коррекция веса и гормонального фона — лечим причину комплексно.</p>
+    </div>
+    <div class="feature reveal">
+      <div class="feature__ic" data-ic="shield"></div>
+      <h3>Доверие пациентов</h3>
+      <p>Более 130 отзывов и высокий рейтинг на ПроДокторов, 2ГИС и Яндекс.Картах.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES PREVIEW ============ -->
+<section class="section" id="uslugi">
+  <div class="container">
+    <div class="sec-head sec-head--center reveal">
+      <span class="eyebrow eyebrow--center">Направления</span>
+      <h2>Услуги центра</h2>
+      <p class="lead">Полный спектр помощи в сфере женского здоровья — диагностика, лечение и восстановление под одной крышей.</p>
+    </div>
+    <div class="grid grid-3" style="margin-top:48px">
+      <a class="card svc reveal" href="./uslugi/#ginekologiya">
+        <div class="svc__img"><img src="./assets/img/ginekologiya.jpg" loading="lazy" srcset="./assets/img/ginekologiya-560.jpg 560w, ./assets/img/ginekologiya.jpg 1120w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Гинекология и акушерство" style="object-position:center 30%"></div>
+        <div class="svc__body"><h3>Гинекология и акушерство</h3>
+          <p>Приём гинеколога, ведение беременности, кольпоскопия, лечение патологий шейки матки.</p>
+          <div class="svc__foot"><span class="svc__arrow" data-ic="arrow"></span></div>
+        </div>
+      </a>
+      <a class="card svc reveal" href="./uslugi/#uzi">
+        <div class="svc__img"><img src="./assets/img/uzi.jpg" loading="lazy" srcset="./assets/img/uzi-560.jpg 373w, ./assets/img/uzi.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="УЗИ-диагностика"></div>
+        <div class="svc__body"><h3>УЗИ-диагностика</h3>
+          <p>УЗИ малого таза и брюшной полости, фолликулометрия, цервикометрия на аппарате в кабинете.</p>
+          <div class="svc__foot"><span class="svc__arrow" data-ic="arrow"></span></div>
+        </div>
+      </a>
+      <a class="card svc reveal" href="./uslugi/#kosmetologiya">
+        <div class="svc__img"><img src="./assets/img/kosmetologiya.jpg" loading="lazy" srcset="./assets/img/kosmetologiya-560.jpg 373w, ./assets/img/kosmetologiya.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Косметология и уход за кожей"></div>
+        <div class="svc__body"><h3>Косметология и уход</h3>
+          <p>Эстетические процедуры и уход за кожей: мезотерапия, плазмолифтинг, карбокситерапия.</p>
+          <div class="svc__foot"><span class="svc__arrow" data-ic="arrow"></span></div>
+        </div>
+      </a>
+      <a class="card svc reveal" href="./uslugi/#girudoterapiya">
+        <div class="svc__img"><img src="./assets/img/girudoterapiya.jpg" loading="lazy" srcset="./assets/img/girudoterapiya-560.jpg 373w, ./assets/img/girudoterapiya.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Гирудотерапия"></div>
+        <div class="svc__body"><h3>Гирудотерапия</h3>
+          <p>Лечение медицинской пиявкой при гипертонии, застойных и воспалительных процессах.</p>
+          <div class="svc__foot"><span class="svc__arrow" data-ic="arrow"></span></div>
+        </div>
+      </a>
+      <a class="card svc reveal" href="./uslugi/#fizioterapiya">
+        <div class="svc__img"><img src="./assets/img/kapelnitsy.jpg" loading="lazy" srcset="./assets/img/kapelnitsy-560.jpg 373w, ./assets/img/kapelnitsy.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Физиотерапия и капельницы"></div>
+        <div class="svc__body"><h3>Физиотерапия и капельницы</h3>
+          <p>ВЛОК, озонотерапия, лечебные капельницы и инъекции в процедурном кабинете.</p>
+          <div class="svc__foot"><span class="svc__arrow" data-ic="arrow"></span></div>
+        </div>
+      </a>
+      <a class="card svc reveal" href="./uslugi/#massazh">
+        <div class="svc__img"><img src="./assets/img/massazh.jpg" loading="lazy" srcset="./assets/img/massazh-560.jpg 373w, ./assets/img/massazh.jpg 747w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Мануальная терапия и массаж" style="object-position:center 55%"></div>
+        <div class="svc__body"><h3>Мануальная терапия и массаж</h3>
+          <p>Лечение болей в шее и спине, реабилитация, общий, медовый и триггерный массаж.</p>
+          <div class="svc__foot"><span class="svc__arrow" data-ic="arrow"></span></div>
+        </div>
+      </a>
+    </div>
+    <div style="text-align:center;margin-top:40px" class="reveal">
+      <a class="btn btn--primary btn--lg" href="./uslugi/">Полный прайс-лист</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CHIEF DOCTOR ============ -->
+<section class="section about" id="glavvrach">
+  <div class="container">
+    <div class="sec-head reveal" style="margin-bottom:36px">
+      <span class="eyebrow">Главный врач и основатель</span>
+    </div>
+    <div class="chief reveal">
+      <div class="chief__card">
+        <div class="chief__img"><img src="./assets/img/irina-abelmazova-portret.jpg" loading="lazy" srcset="./assets/img/irina-abelmazova-portret-560.jpg 373w, ./assets/img/irina-abelmazova-portret.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Ирина Анатольевна Абельмазова" style="object-position:center 28%"></div>
+        <div class="chief__body">
+          <span class="doc__spec">Гинеколог · акушер · врач УЗИ</span>
+          <h2>Ирина Анатольевна Абельмазова</h2>
+          <span class="chief__role">Основатель и главный врач центра</span>
+          <p>Гинеколог-эндокринолог, детский гинеколог, врач интегративной и превентивной медицины. За плечами — опыт работы в московской клинике и собственный центр, где главное правило: найти настоящую причину, а не годами лечить симптомы.</p>
+          <div class="chief__meta">
+            <div><b>31 год</b><span>врачебный стаж</span></div>
+            <div><b>УЗИ</b><span>диагностика на приёме</span></div>
+            <div><b>2018</b><span>год основания центра</span></div>
+          </div>
+          <div style="margin-top:28px;display:flex;gap:13px;flex-wrap:wrap">
+            <a class="btn btn--bordo" href="tel:+79205616149" data-phone="phone" data-book>Записаться к врачу</a>
+            <a class="btn btn--ghost" href="./vrachi/">Все врачи центра</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="o-klinike">
+  <div class="container about__inner">
+    <div class="reveal">
+      <span class="eyebrow">О клинике</span>
+      <h2 style="margin-top:14px">Более 8 лет рядом с женщинами Белгорода</h2>
+      <p class="lead" style="margin-top:18px">Медицинский центр Ирины Абельмазовой работает с 2018 года. Мы создали пространство, где забота о женском здоровье построена на внимании, доверии и современной диагностике.</p>
+      <ul class="about__list">
+        <li><span data-ic="check"></span><span><b>Женское здоровье и долголетие</b> — профильная специализация центра.</span></li>
+        <li><span data-ic="check"></span><span><b>Своя диагностика:</b> УЗИ, биоимпедансометрия, анализы — без беготни по городу.</span></li>
+        <li><span data-ic="check"></span><span><b>Комплексные программы</b> вместо разовых процедур: от причины к результату.</span></li>
+        <li><span data-ic="check"></span><span><b>Уютные кабинеты</b> и бережное отношение на каждом этапе лечения.</span></li>
+      </ul>
+      <div style="margin-top:30px">
+        <a class="btn btn--primary" href="./o-klinike/">Подробнее о центре</a>
+      </div>
+    </div>
+    <div class="about__media reveal">
+      <img src="./assets/img/holl.jpg" loading="lazy" srcset="./assets/img/holl-560.jpg 373w, ./assets/img/holl.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Интерьер центра — холл">
+      <img src="./assets/img/zona-ozhidaniya.jpg" loading="lazy" srcset="./assets/img/zona-ozhidaniya-560.jpg 373w, ./assets/img/zona-ozhidaniya.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Зона ожидания">
+      <img src="./assets/img/kabinet.jpg" loading="lazy" srcset="./assets/img/kabinet-560.jpg 373w, ./assets/img/kabinet.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Кабинет центра">
+    </div>
+  </div>
+</section>
+
+<!-- ============ DOCTORS PREVIEW ============ -->
+<section class="section about" id="vrachi">
+  <div class="container">
+    <div class="sec-head sec-head--center reveal">
+      <span class="eyebrow eyebrow--center">Наша команда</span>
+      <h2>Врачи центра</h2>
+      <p class="lead">Специалисты с многолетним стажем, которым доверяют здоровье целыми семьями.</p>
+    </div>
+    <div class="grid grid-3" style="margin-top:46px">
+      <article class="card doc reveal">
+        <div class="doc__img"><img src="./assets/img/lyudmila-gatilova.jpg" loading="lazy" srcset="./assets/img/lyudmila-gatilova-560.jpg 373w, ./assets/img/lyudmila-gatilova.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Людмила Гатилова"></div>
+        <div class="doc__body"><span class="doc__spec">Гинеколог</span><h3>Людмила Гатилова</h3>
+          <p class="doc__exp">Гинеколог, акушер · стаж 44 года</p>
+          <div class="doc__tags"><span>Гинекология</span><span>Акушерство</span></div>
+        </div>
+      </article>
+      <article class="card doc reveal">
+        <div class="doc__img"><img src="./assets/img/oksana-posokhova.jpg" loading="lazy" srcset="./assets/img/oksana-posokhova-560.jpg 373w, ./assets/img/oksana-posokhova.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Оксана Посохова"></div>
+        <div class="doc__body"><span class="doc__spec">Косметолог-эстетист</span><h3>Оксана Посохова</h3>
+          <p class="doc__exp">Эстетические процедуры, уход за кожей</p>
+          <div class="doc__tags"><span>Косметология</span><span>Уход</span></div>
+        </div>
+      </article>
+      <article class="card doc reveal">
+        <div class="doc__img"><img src="./assets/img/marina-kostenko.jpg" loading="lazy" srcset="./assets/img/marina-kostenko-560.jpg 373w, ./assets/img/marina-kostenko.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Марина Костенко"></div>
+        <div class="doc__body"><span class="doc__spec">Медсестра</span><h3>Марина Костенко</h3>
+          <p class="doc__exp">Процедурный кабинет: анализы, капельницы, инъекции</p>
+          <div class="doc__tags"><span>Процедуры</span><span>Капельницы</span></div>
+        </div>
+      </article>
+    </div>
+    <div style="text-align:center;margin-top:40px" class="reveal">
+      <a class="btn btn--primary btn--lg" href="./vrachi/">Все специалисты</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="section reviews" id="otzyvy">
+  <div class="container">
+    <div class="sec-head sec-head--center reveal">
+      <span class="eyebrow eyebrow--center">Отзывы пациентов</span>
+      <h2>Нам доверяют самое важное</h2>
+      <p class="lead">По материалам отзывов на <a href="https://prodoctorov.ru/belgorod/lpu/59833-medicinskiy-centr-iriny-abelmazovoy/otzivi/" target="_blank" rel="noopener" class="review-source">ПроДокторов</a> и <a href="https://2gis.ru/belgorod/firm/70000001034007109" target="_blank" rel="noopener" class="review-source">2ГИС</a>.</p>
+    </div>
+    <div class="grid grid-3" style="margin-top:46px">
+      <div class="review reveal">
+        <div class="review__stars" data-ic="stars5"></div>
+        <p>«Очень удобно, когда аппарат УЗИ прямо в кабинете гинеколога. Всё по факту, без очередей и лишних направлений».</p>
+        <div class="review__who"><span class="review__av">А</span><div><b>Анна</b><span>пациентка центра</span></div></div>
+      </div>
+      <div class="review reveal">
+        <div class="review__stars" data-ic="stars5"></div>
+        <p>«Ирина Анатольевна — врач по призванию. Внимательная, всё объясняет и подбирает лечение индивидуально. Помогла там, где другие не справлялись».</p>
+        <div class="review__who"><span class="review__av">Ю</span><div><b>Юлия</b><span>пациентка центра</span></div></div>
+      </div>
+      <div class="review reveal">
+        <div class="review__stars" data-ic="stars5"></div>
+        <p>«Чисто, уютно, профессиональные врачи. Назначения комплексные и понятные — видно, что человек не пытается заработать на тебе больше».</p>
+        <div class="review__who"><span class="review__av">Е</span><div><b>Елена</b><span>пациентка центра</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY PREVIEW ============ -->
+<section class="section" id="galereya">
+  <div class="container">
+    <div class="sec-head sec-head--center reveal">
+      <span class="eyebrow eyebrow--center">Галерея</span>
+      <h2>Загляните к нам</h2>
+      <p class="lead">Светлые кабинеты, современное оборудование и атмосфера заботы.</p>
+    </div>
+    <div class="gallery reveal" style="margin-top:42px">
+      <a href="./assets/img/interer.jpg" data-lb><img src="./assets/img/interer.jpg" loading="lazy" srcset="./assets/img/interer-560.jpg 373w, ./assets/img/interer.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Интерьер центра"></a>
+      <a href="./assets/img/protsedurnyy-kabinet.jpg" data-lb><img src="./assets/img/protsedurnyy-kabinet.jpg" loading="lazy" srcset="./assets/img/protsedurnyy-kabinet-560.jpg 373w, ./assets/img/protsedurnyy-kabinet.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Процедурный кабинет"></a>
+      <a href="./assets/img/uzi.jpg" data-lb><img src="./assets/img/uzi.jpg" loading="lazy" srcset="./assets/img/uzi-560.jpg 373w, ./assets/img/uzi.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="УЗИ-аппарат"></a>
+      <a href="./assets/img/kabinet.jpg" data-lb><img src="./assets/img/kabinet.jpg" loading="lazy" srcset="./assets/img/kabinet-560.jpg 373w, ./assets/img/kabinet.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Кабинет"></a>
+      <a href="./assets/img/interer-kabineta.jpg" data-lb><img src="./assets/img/interer-kabineta.jpg" loading="lazy" srcset="./assets/img/interer-kabineta-560.jpg 373w, ./assets/img/interer-kabineta.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Интерьер"></a>
+      <a href="./assets/img/kapelnitsy.jpg" data-lb><img src="./assets/img/kapelnitsy.jpg" loading="lazy" srcset="./assets/img/kapelnitsy-560.jpg 373w, ./assets/img/kapelnitsy.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Капельницы"></a>
+      <a href="./assets/img/kabinet-tsentra.jpg" data-lb><img src="./assets/img/kabinet-tsentra.jpg" loading="lazy" srcset="./assets/img/kabinet-tsentra-560.jpg 373w, ./assets/img/kabinet-tsentra.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Кабинет"></a>
+      <a href="./assets/img/koridor.jpg" data-lb><img src="./assets/img/koridor.jpg" loading="lazy" srcset="./assets/img/koridor-560.jpg 373w, ./assets/img/koridor.jpg 746w" sizes="(max-width: 560px) 92vw, (max-width: 1024px) 52vw, 520px" decoding="async" alt="Коридор центра"></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta reveal">
+      <div class="cta__inner">
+        <div>
+          <h2>Запишитесь на приём сегодня</h2>
+          <p>Администратор подберёт удобное время и подробно ответит на все вопросы. Звоните в регистратуру или следите за новостями центра в Telegram.</p>
+        </div>
+        <div class="cta__actions">
+          <a class="btn btn--light btn--lg" href="tel:+79205616149" data-phone="phone" data-book>Записаться на приём</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="brand">
+          <img class="brand__logo" src="./assets/img/logo.jpg" alt="" loading="lazy">
+          <span class="brand__txt">
+            <span class="brand__title" style="color:#fff">Медицинский центр</span>
+            <span class="brand__org" style="color:#fff">Ирины Абельмазовой</span>
+          </span>
+        </div>
+        <p>Бережная медицина женского здоровья и долголетия в Белгороде. Работаем с 2018 года.</p>
+      </div>
+      <div><h4>Разделы</h4><div class="footer__list"><a href="./">Главная</a><a href="./o-klinike/">О клинике</a><a href="./uslugi/">Услуги и цены</a><a href="./vrachi/">Врачи</a><a href="./kontakty/">Контакты</a><a href="./novosti/">Новости и объявления</a></div></div>
+      <div><h4>Контакты</h4><div class="footer__list">
+        <a href="tel:+79205616149" data-phone="phone" data-contact="phone">+7 (920) 561-61-49</a>
+        <a href="./kontakty/" data-contact="address">г. Белгород, ул. Преображенская, 109б</a>
+        <span data-contact="hours">Пн–Сб 10:00–17:00</span>
+      </div></div>
+      <div><h4>Мы в сети</h4><div class="footer__list">
+        <a href="https://t.me/MCAbelmazova" target="_blank" rel="noopener">Telegram-канал</a>
+        <a href="https://prodoctorov.ru/belgorod/lpu/59833-medicinskiy-centr-iriny-abelmazovoy/" target="_blank" rel="noopener">ПроДокторов</a>
+        <a href="https://2gis.ru/belgorod/firm/70000001034007109" target="_blank" rel="noopener">2ГИС</a>
+        <a href="https://yandex.ru/maps/org/meditsinskiy_tsentr_iriny_abelmazovoy/186025209132/" target="_blank" rel="noopener">Яндекс Карты</a>
+      </div></div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Медицинский центр Ирины Абельмазовой.</span>
+      <a class="footer__license" href="./licenziya/">Лицензия</a>
+      <div class="footer__social"><a href="https://t.me/MCAbelmazova" target="_blank" rel="noopener" aria-label="Канал в Telegram" data-ic="tg"></a></div>
+    </div>
+  </div>
+</footer>
+<dialog class="booking-dialog" id="booking" aria-labelledby="booking-title">
+  <div class="modal__card">
+    <form method="dialog"><button class="modal__close" aria-label="Закрыть" autofocus>×</button></form>
+    <img class="modal__logo" src="./assets/img/logo.jpg" alt="" loading="lazy">
+    <h3 id="booking-title">Запись по телефону</h3>
+    <p data-booking-message>Администратор подберёт удобное время и ответит на вопросы.</p>
+    <a class="modal__phone" href="tel:+79205616149" data-phone="phone" data-contact="phone">+7 (920) 561-61-49</a>
+    <div class="modal__hours" data-contact="hours">Пн–Сб 10:00–17:00</div>
+    <div class="modal__actions">
+      <a class="btn btn--primary btn--lg btn--block" href="tel:+79205616149" data-phone="phone"><span data-ic="phone"></span> Позвонить в регистратуру</a>
+    </div>
+  </div>
+</dialog>
+</body>
+</html>

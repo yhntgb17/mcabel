@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Редактор сайта клиники</title>
+<style>
+  :root { font: 17px/1.5 system-ui, sans-serif; color: #292333; background: #faf7fa; }
+  body { margin: 0 auto; padding: 36px 16px 64px; max-width: 760px; }
+  h1 { margin: 0; font-size: clamp(1.6rem, 5vw, 2.3rem); }
+  h2 { margin: 0 0 12px; }
+  p { margin: 8px 0 16px; }
+  section { margin-top: 18px; padding: 20px; border: 1px solid #e2d8e3; border-radius: 15px; background: white; }
+  label { display: block; font-weight: 600; margin-top: 8px; }
+  input, textarea, button { font: inherit; }
+  input:not([type=checkbox],[type=file]), textarea { box-sizing: border-box; display: block; width: 100%; margin-top: 4px; padding: 8px; border: 1px solid #a69aab; border-radius: 6px; }
+  textarea { resize: vertical; }
+  summary { cursor: pointer; font-weight: 650; padding: 8px 0; }
+  button { cursor: pointer; background: #f0e7f0; color: #452849; border: none; padding: 8px 12px; border-radius: 7px; }
+  button.primary { background: #642959; color: white; font-weight: 650; }
+  button[type=submit] { margin-top: 20px; }
+  .row { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) auto; align-items: end; gap: 8px; margin-bottom: 8px; }
+  fieldset { border: 1px solid #e2d8e3; padding: 12px; margin: 0 0 16px; border-radius: 8px; }
+  .hint { color: #50455a; font-size: .94rem; }
+  [role=status] { white-space: pre-line; }
+  @media(max-width: 540px) { .row { grid-template-columns: 1fr 1fr; } .row label:first-child { grid-column: 1 / -1; } }
+</style>
+<script defer src="redaktor.js"></script>
+</head>
+<body>
+  <h1>Редактор сайта клиники</h1>
+  <p>Откройте текущий файл <strong>site/assets/dannye.js</strong>, внесите правки и скачайте новую версию. Затем замените файл в папке сайта или на хостинге.</p>
+  <section>
+    <label for="import">Текущий файл данных</label>
+    <input type="file" id="import" accept=".js">
+    <p id="import-status" role="status"></p>
+  </section>
+  <form id="editor" hidden>
+    <section>
+      <h2>Контакты и часы работы</h2>
+      <div id="contacts"></div>
+    </section>
+    <section>
+      <h2>Услуги и цены</h2>
+      <p class="hint">Введите цену так, как она должна выглядеть на сайте. Пустое поле покажет «уточняйте».</p>
+      <div id="prices"></div>
+    </section>
+    <section>
+      <h2>Объявления</h2>
+      <p class="hint">Даты и время задаются по Москве. После окончания показа плашка исчезнет, а запись останется в новостях. Если дата снятия пуста, плашка будет видна до следующей правки.</p>
+      <div id="announcements"></div>
+      <button type="button" id="add-announcement">Добавить объявление</button>
+    </section>
+    <button class="primary" type="submit">Скачать новый dannye.js</button>
+    <p id="save-status" role="status"></p>
+  </form>
+</body>
+</html>
